@@ -26,9 +26,9 @@ curl -i -X POST http://localhost:8080/tasks \
   -d '{"value":1.57079632679,"function":"sin"}'
 ```
 
-The `202 Accepted` response contains a `taskId`. Retrieve the task:
+The `202 Accepted` response contains a `taskId`.<br>
+You can retrieve the task information:
 
 ```bash
 curl http://localhost:8080/tasks/<taskId>
 ```
-
